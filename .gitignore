@@ -1,0 +1,9 @@
+*.diff
+*.swo
+*.swp
+*.tgz
+.tags
+build
+zwcfg*
+zwscene.xml
+node_modules

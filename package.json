@@ -1,0 +1,37 @@
+{
+  "name": "node-znp",
+  "version": "0.0.1",
+  "description": "node.js wrapper for TIs Zigbee Network Protocol HA profile",
+  "author": "Yash Goyal <ygoyal@wigwag.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:WigWagCo/node-znp.git"
+  },
+  "keywords": [
+    "automation",
+    "home",
+    "iot",
+    "zigbee",
+    "znp",
+    "zb"
+  ],
+  "binary": {
+       "module_name": "node-znp",
+       "module_path": "./build/Release/obj.target",
+       "host": "https://pregypbucket.s3.amazonaws.com"
+  },
+  "dependencies": {
+    "nan": "^2.1.0",
+    "promise": "*"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "MIT",
+  "gypfile": true
+}
+  
